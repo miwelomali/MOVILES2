@@ -1,0 +1,2 @@
+rootProject.name='EVA1_CLIMA_FRAG'
+include ':app'

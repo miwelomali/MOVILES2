@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgVwImagen"
+        android:layout_width="0dp"
+        android:layout_height="244dp"
+
+        android:layout_weight="1"
+
+        android:src="@drawable/cloudy" />
+
+    <LinearLayout
+        android:layout_width="155dp"
+        android:layout_height="244dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtVwCiudad"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="CHIHUAHUA" />
+
+        <TextView
+            android:id="@+id/txtVwClima"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txtVwTemper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>
