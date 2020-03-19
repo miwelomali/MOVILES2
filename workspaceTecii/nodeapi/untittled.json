@@ -1,0 +1,26 @@
+{
+    "displayname": "Kevin Dino",
+    "profile": {
+        "name": "Kevin",
+        "lastname": "Dino",
+        "email": "pollopower74@gmail.com",
+        "password": "123456", 
+        "phone": "6141422029",
+        "birthDate": "03-02-1997",
+        "address": {
+            "street":"44 5614",
+            "city": "Chihuahua",
+            "state": "Chihuahua",
+            "zipcode": "31205"
+        },
+        "gender": "masculino",
+        "maritalStatus": "soltero",  
+        "profileImg": "dino_image",
+        "degree": "sistemas",
+        "roles": "admin"
+       
+    },
+    "terms": true
+
+
+}
