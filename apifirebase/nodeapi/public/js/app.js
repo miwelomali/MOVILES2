@@ -13,13 +13,13 @@ function getAllFilms() {
         .catch(console.warn)
 }
 
-function createFilm(title) {
+function createFilm (title) {
     ajaxHandler({
-        method: 'POST',
-        payload: { title }
+      method: 'POST',
+      payload: { title }
     }).then(showResponse)
-        .catch(console.warn)
-}
+      .catch(console.warn)
+  }
 
 function updateFilm(id, data) {
     ajaxHandler({
