@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const api = require('./controllers/api')
 const app = express()
-
+const {port} = require("./config")
 // Middleware
 app.use(bodyParser.json())
 
@@ -20,12 +20,12 @@ app.get('/api/movies/:id', api.getItem)
 // DELETE /movies -> Borrar una pelicula
 
 app.route('/api/movies')
-  .get(api.getAll)
-  .post(api.create)
-  .put(api.update)
-  .delete(api.remove)
+    .get(api.getAll)
+    .post(api.create)
+    .put(api.update)
+    .delete(api.remove)
 
 // Puerto
-app.listen(8080, () => {
-  console.log('Ya estamos online')
+app.listen(port, () => {
+    console.log('Ya estamos online')
 })
